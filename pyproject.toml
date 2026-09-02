@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "advancedTouchSupport"
-dynamic = ["2026.9.2"]
+dynamic = ["version"]
 description = "Advanced touchscreen features support for NVDA"
 maintainers = [
 	{name = "Asociación Comunidad Hispanohablante de NVDA", email = "contacto@nvda.es"},
