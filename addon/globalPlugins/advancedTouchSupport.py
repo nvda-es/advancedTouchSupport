@@ -17,10 +17,13 @@ config.conf.spec["touchSupport"] = {
 	"minFlickDistance": "integer(default=50)",
 }
 
-def applyConfig():
-	touchTracker.minFlickDistance = config.conf['touchSupport']['minFlickDistance']
+
+def applyConfig() -> None:
+	touchTracker.minFlickDistance = config.conf["touchSupport"]["minFlickDistance"]
+
 
 orig_minFlickDistance = touchTracker.minFlickDistance
+
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__(self):
@@ -58,7 +61,7 @@ class TouchPanel(SettingsPanel):
 			wx.SpinCtrl,
 			min=1,
 			max=2000,
-			value=str(config.conf['touchSupport']['minFlickDistance']),
+			value=str(config.conf["touchSupport"]["minFlickDistance"]),
 		)
 
 	def onSave(self):
