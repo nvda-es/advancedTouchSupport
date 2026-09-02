@@ -22,9 +22,7 @@ readme = "readme.md"
 license = {file = "COPYING.TXT"}
 # This package is not installed as a library; every dependency is tooling used to
 # build, translate, or lint the add-on. They are declared as PEP 735 dependency groups.
-dependencies = [
-    "wxpython>=4.3.1",
-]
+dependencies = []
 [project.urls]
 Repository = "https://github.com/nvaccess/addonTemplate"
 

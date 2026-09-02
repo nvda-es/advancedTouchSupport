@@ -5,9 +5,6 @@ requires-python = "==3.13.*"
 [[package]]
 name = "advancedtouchsupport"
 source = { editable = "." }
-dependencies = [
-    { name = "wxpython" },
-]
 
 [package.dev-dependencies]
 build = [
@@ -44,7 +41,6 @@ lint = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "wxpython", specifier = ">=4.3.1" }]
 
 [package.metadata.requires-dev]
 build = [
@@ -432,17 +428,4 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/ec/b3/fd30b473fe498c70e6b9a5f328b8d3fbaf1b8c3c481465f59724bba8eb70/wrapt-2.2.1-cp313-cp313t-win_amd64.whl", hash = "sha256:5590d63f5243251641cf543009b4c9314a79d0598fdb8a8e4cfc918494536c53", size = 83021, upload-time = "2026-05-22T14:48:49.201Z" },
     { url = "https://files.pythonhosted.org/packages/ee/f3/96c39153a8737a6e9aa85adef254ac4195bea3f2d24efc60472ccc3c9e2e/wrapt-2.2.1-cp313-cp313t-win_arm64.whl", hash = "sha256:c318a64b53d97b841d7b5e637517e50a27be64bc695128422953d4b21710954e", size = 80295, upload-time = "2026-05-22T14:48:50.479Z" },
     { url = "https://files.pythonhosted.org/packages/53/46/29ac9daf11a86c22a8c38cd9236c62928ccae83f7ceb06bd3b0467cf9d05/wrapt-2.2.1-py3-none-any.whl", hash = "sha256:3aafea2975caef8ca49400640dde02cc7426e798f24870ed01f490bc3cffd32f", size = 61000, upload-time = "2026-05-22T14:49:41.593Z" },
-]
-
-[[package]]
-name = "wxpython"
-version = "4.3.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/3d/dd/026f6286f8beefcdd9551ad2e05b4e3edb45e638cdc067db211c53c950ce/wxpython-4.3.1.tar.gz", hash = "sha256:4e3a95b63175be8e10f0662de506a36d8cc6cb86ecc5b30ae880c8dafb34a0cd", size = 64071924, upload-time = "2026-07-30T01:11:13.852Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/33/6a/8d748ca1aeeab640adb638d54a7cdd19c209efb9a491f0877671090de505/wxpython-4.3.1-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:c89a061fc9b440dfd5a9ed2f1c0c60c8537352aa01c31af34bfed1a3dd0416a6", size = 20021809, upload-time = "2026-07-30T01:10:36.124Z" },
-    { url = "https://files.pythonhosted.org/packages/fc/95/4d07bd77312a394b78b75cc135fb52836e042a2a8af98ec655b3fcf4ec72/wxpython-4.3.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:579606f621f7edd76c5d85a235c12d6900427f527e0a95b56d583a15cad33221", size = 18818768, upload-time = "2026-07-30T01:10:39.574Z" },
-    { url = "https://files.pythonhosted.org/packages/ae/fa/69e5c01e4edcd2a922c3df89b11e18a9e6c4b3bcc6c0ee2067d89f2b6d8e/wxpython-4.3.1-cp313-cp313-win32.whl", hash = "sha256:c9c2663faa22764ecaf509b71af92d2a57c1c46ef7e1ca3be56e11d00c2c71c9", size = 16281041, upload-time = "2026-07-30T01:10:43.87Z" },
-    { url = "https://files.pythonhosted.org/packages/5e/fb/a3a0b05d432023746bf7e8b88f8c573f4e9f0f63d2b41bbf9aaa7fb4686f/wxpython-4.3.1-cp313-cp313-win_amd64.whl", hash = "sha256:0ae85e266dbb99fe46bc26920aa87b22fa3f83dc51b321bcd9afa51fa68340e7", size = 18524971, upload-time = "2026-07-30T01:10:47.478Z" },
-    { url = "https://files.pythonhosted.org/packages/7b/b1/ea97f5e0c933a815fc373c987b198fdf070cf29ec3c9d76b879c6f4e9a48/wxpython-4.3.1-cp313-cp313-win_arm64.whl", hash = "sha256:160d89584b17edba581274773a2b0e4eb828333e264323a12dcf91d828d14d91", size = 16322700, upload-time = "2026-07-30T01:10:50.898Z" },
 ]
